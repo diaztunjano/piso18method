@@ -1,0 +1,21 @@
+{
+  "name": "piso18method",
+  "description": "Structured development methodology: Discovery → Planning → Execution → Review → Completion. Enforces TDD, two-stage code review, and systematic task execution.",
+  "version": "1.0.0",
+  "author": {
+    "name": "David Diaz",
+    "email": "david@piso18.io"
+  },
+  "homepage": "https://github.com/piso18/piso18method",
+  "repository": "https://github.com/piso18/piso18method",
+  "license": "MIT",
+  "keywords": [
+    "methodology",
+    "tdd",
+    "code-review",
+    "planning",
+    "development-workflow",
+    "subagent",
+    "dispatcher-pattern"
+  ]
+}
