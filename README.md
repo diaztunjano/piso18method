@@ -92,17 +92,6 @@ Verify, merge/PR, and cleanup.
 4. **Dispatcher Pattern** - Never pollute context, delegate to subagents
 5. **Evidence before claims** - Run verification, then claim success
 
-## Migration from superpowers
-
-| superpowers skill | piso18method equivalent |
-|-------------------|------------------------|
-| `superpowers:brainstorming` | `piso18method:discovery` |
-| `superpowers:writing-plans` | `piso18method:planning` |
-| `superpowers:subagent-driven-development` | `piso18method:execution` |
-| `superpowers:finishing-a-development-branch` | `piso18method:completion` |
-| `superpowers:test-driven-development` | `piso18method:tdd` |
-| `superpowers:verification-before-completion` | `piso18method:verification` |
-
 ## License
 
 MIT License - see [LICENSE](LICENSE)
@@ -110,4 +99,3 @@ MIT License - see [LICENSE](LICENSE)
 ## Author
 
 David Diaz - david@piso18.io
-# piso18method

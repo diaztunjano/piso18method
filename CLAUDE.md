@@ -10,7 +10,7 @@ This is a **plugin implementation project** - the codebase consists of markdown 
 
 ## Project Status
 
-The project contains a complete specification (`piso18method-plugin-spec.md`) but no implementation yet. The implementation checklist in Section 10 of the spec tracks what needs to be built.
+The plugin is fully implemented and ready for use.
 
 ## Plugin Structure (Target)
 
@@ -71,12 +71,4 @@ Implementer → Spec Review → (fixes if needed) → Quality Review → (fixes 
 - Skills go in `skills/<skill-name>/SKILL.md` with YAML frontmatter
 - Commands go in `commands/<command-name>.md`
 - The `session-start.sh` hook injects the meta skill content at session start
-- Some skills (tdd, verification, code-review) should be adapted from superpowers equivalents
 
-## Reference
-
-The complete specification is in `piso18method-plugin-spec.md`. It contains:
-- Full content for all skill files
-- JSON schemas for plugin.json and hooks.json
-- Shell script for session-start hook
-- Migration mapping from superpowers skills
